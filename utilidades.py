@@ -14,7 +14,7 @@ import ast
 
 
 # API del sitio https://api.opencagedata.com
-API_KEY = '4901aad006d0464594531f2f481f52f6'
+API_KEY = ''
 
 address = 'Ruezga Sur Sector 06 Bloque 06, Barquisimeto, Venezuela'
 
