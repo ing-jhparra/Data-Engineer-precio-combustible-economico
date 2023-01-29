@@ -1,0 +1,13 @@
+prefix=/home/jhparra/anaconda3/envs/oil
+exec_prefix=/home/jhparra/anaconda3/envs/oil
+libdir=/home/jhparra/anaconda3/envs/oil/lib
+sharedlibdir=/home/jhparra/anaconda3/envs/oil/lib
+includedir=/home/jhparra/anaconda3/envs/oil/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

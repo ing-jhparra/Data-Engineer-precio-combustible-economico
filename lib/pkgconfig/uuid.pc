@@ -1,0 +1,11 @@
+prefix=/home/jhparra/anaconda3/envs/oil
+exec_prefix=/home/jhparra/anaconda3/envs/oil
+libdir=/home/jhparra/anaconda3/envs/oil/lib
+includedir=/home/jhparra/anaconda3/envs/oil/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
